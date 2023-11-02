@@ -1,0 +1,45 @@
+# Ignore Node.js related files and directories
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+
+# Ignore build output
+/dist/
+/dist-ssr/
+/public/
+/build/
+/server/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+.env.*.local.php
+
+# Ignore editor and OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore composer dependencies
+/vendor/
+
+# Local env files and logs (from frontend)
+/frontend/.env.local
+/frontend/.env.*.local
+/frontend/.env.*.local.php
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/pnpm-debug.log*
+
+# Editor directories and files (from frontend)
+/frontend/.idea
+/frontend/.vscode
+/frontend/*.suo
+/frontend/*.ntvs*
+/frontend/*.njsproj
+/frontend/*.sln
+/frontend/*.sw?
